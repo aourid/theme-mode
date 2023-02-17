@@ -1,0 +1,118 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(240, 242, 242); */
+}
+
+i {
+  font-size: 2rem;
+  cursor: pointer;
+  transform: translate(-50%, 50%);
+  color: rgb(156, 183, 7);
+}
+.changeColor {
+  color: brown;
+}
+h1 {
+  text-align: center;
+  color: rgb(21, 24, 63);
+  margin: 70px 50px;
+  /* color: rgb(219, 219, 219); */
+}
+
+.setbackground {
+  position: relative;
+  display: inline-block;
+}
+
+/* Start Here */
+
+/* Dropdown Button */
+
+.theme {
+  /* padding-top: 50px; */
+  height: 50px;
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.dropbtn {
+  /* background-color: rgb(246, 236, 236); */
+  background-image: linear-gradient(to right, rgb(243, 0, 0), rgb(6, 129, 16));
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 20px;
+  border: none;
+}
+
+.material-symbols-outlined {
+  font-size: 1.2rem;
+}
+.themecontent {
+  display: none;
+  z-index: 1;
+}
+
+/* Links inside the theme */
+.themecontent a {
+  color: rgb(77, 78, 77);
+  margin: 2px 26px;
+  text-decoration: none;
+  display: flex;
+  font-size: 0.3rem;
+}
+
+/* Change color of theme links on hover */
+.themecontent a:hover {
+  background-color: rgb(168, 168, 168);
+  color: rgb(45, 58, 1);
+  font-size: 0.9rem;
+}
+
+/* Show the theme menu on hover */
+.theme:hover .themecontent {
+  display: block;
+}
+
+/* Change the background color of the theme button when the theme content is shown */
+.theme:hover .dropbtn {
+  background-color: #a1a1a1;
+}
+
+.paragraph {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  width: 30%;
+  height: 160px;
+  margin: 10px;
+
+  background-color: rgb(133, 31, 0);
+  color: rgb(194, 171, 168);
+}
+
+.sq_A {
+  background-color: rgb(255, 253, 253);
+  border: solid 3px red;
+}
+
+.box-style {
+  font-size: 1rem;
+  color: rgb(221, 221, 221);
+  text-align: center;
+}
+p {
+  font-size: 0.7rem;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  padding: 5px 10px;
+}
